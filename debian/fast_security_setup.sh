@@ -15,9 +15,9 @@
 #
 # 用法:
 # 方式 A:交互式模式(推荐，最不容易出错)
-# wget -O setup.sh https://raw.githubusercontent.com/你的用户名/仓库/main/safe_setup.sh && chmod +x setup.sh && bash setup.sh
+# wget -O setup.sh https://raw.githubusercontent.com/hxol/scripts/refs/heads/main/debian/fast_security_setup.sh && chmod +x setup.sh && bash setup.sh
 # 方式 B:一键命令行模式
-# wget -O setup.sh https://raw.githubusercontent.com/你的用户名/仓库/main/safe_setup.sh && chmod +x setup.sh && bash setup.sh -u 用户名 -P SSH端口号 -k "公钥内容"
+# wget -O setup.sh https://raw.githubusercontent.com/hxol/scripts/refs/heads/main/debian/fast_security_setup.sh && chmod +x setup.sh && bash setup.sh -u 用户名 -P SSH端口号 -k "公钥内容"
 #
 # 注意,"方式 B:一键命令行模式" 里的公钥需要包裹在双引号里
 # 注意,使用 "方式 B:一键命令行模式" 后要运行命令 `history -c` 清除历史记录，防止密码留在 bash history 中。
